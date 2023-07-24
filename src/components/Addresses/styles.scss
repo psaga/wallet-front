@@ -1,0 +1,27 @@
+.container-center {
+    display: flex;
+    justify-content: center;
+}
+.address-item {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 5px;
+    .balance-container {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+.fav-icon {
+    cursor: pointer;
+}
+
+.fav-icon:hover {
+    color: #FFED01;
+}
+
+.address-item > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+.currency-container {
+    display: flex;
+    justify-content: space-between;
+    .exchange-rate-card {
+        padding: 10px;
+        height: 125px;
+        .edit-container {
+            display: flex;
+            justify-content: end;
+            i {
+                text-align: right;
+            }
+            .cancel-edit {
+                color:red;
+            }
+            .save-edit {
+                color: green;
+            }
+        }
+        .rate-container {
+            display: inline-flex;
+            gap: 5px;
+        }
+    }
+    .balance-container {
+        height: 100%;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
